@@ -1,0 +1,17 @@
+个人页面  /cgi-bin/wap_contact_v4?action=getuser&f=json&contactuin=1146034589
+
+{"base_resp":{"ret":0,"err_msg":"ok","cgi_name":""},"contact_user":"[[0,1146034589,\"http:\/\/shp.qpic.cn\/bizmp\/xseGFOJnVFjrRUoqDttSZjPy6wtCPZH7sGrShusFgJloibia1aBJSVZQ\/\",\"glj\",\"glj\",[[4]],1,1439864560,\"1738\",\"18964660819\",\"\",\"\"]]","dollar":"$","can_select_chat":false}
+
+
+部门成员 /cgi-bin/wap_contact_v4?action=getuserlist&f=json&count=200&pid=4
+
+{"base_resp":{"ret":0,"err_msg":"ok","cgi_name":""},"contact_user":"{\"_\":[],\"G\":[[1146034589,\"glj\",\"http:\/\/shp.qpic.cn\/bizmp\/xseGFOJnVFjrRUoqDttSZjPy6wtCPZH7sGrShusFgJloibia1aBJSVZQ\/\"]]}","dollar":"$","isall":1,"py":"glj","top":0}
+
+搜索 /cgi-bin/wap_contact_v4?action=search&count=200&f=json&pid=4&keyword=glj
+
+{"base_resp":{"ret":0,"err_msg":"ok","cgi_name":""},"contact_user":"{\"_\":[],\"G\":[[1146034589,\"glj\",\"http:\/\/shp.qpic.cn\/bizmp\/xseGFOJnVFjrRUoqDttSZjPy6wtCPZH7sGrShusFgJloibia1aBJSVZQ\/\"]]}","dollar":"$","
+
+===
+C = "/cgi-bin/wap_contact_v4?action=getuserlist&f=json" + (t ? "&from=chat" : "") + "&count=" + B,
+D = "/cgi-bin/wap_contact_v4?action=getuser&f=json" + (t ? "&from=chat" : "") + "&contactuin=",
+E = "/cgi-bin/wap_contact_v4?action=search&count=" + B + (t ? "&from=chat" : "") + "&f=json&",

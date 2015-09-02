@@ -1,0 +1,10 @@
+{
+	"base_resp": {
+		"ret": 0,
+		"err_msg": "ok",
+		"cgi_name": ""
+	},
+	"contact_user": "[[0,1146034589,\"images/1.jpeg?\",\"glj\",\"glj\",[[4]],1,1439864560,\"1738\",\"11111111111\",\"\",\"\"]]",
+	"dollar": "$",
+	"can_select_chat": false
+}
